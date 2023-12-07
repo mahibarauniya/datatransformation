@@ -31,3 +31,5 @@ python '/d/gitrepository/datatransformation/scripts/runTransformation.py' --mode
 Edit configuration 
 set this environment variable in Edit Configuration
 PYTHONUNBUFFERED=1;PYTHONPATH=D:\gitrepository\datatransformation
+
+D:\gitrepository\datatransformation\scripts\runTransformation.py --modelname mortgage --businessdate 20231111 --mode dev
