@@ -62,12 +62,9 @@ then
 fi
 logMsg ${SCRIPT_NAME} i "date parameter set to ${date}"
 
-
-
-
 #set the PYTHONPATH and mention the location from where you're running the project /d/gitrepository/datatransformation
 # In below case project is running from window machine after ubuntu installation and from d drive gitrepository
-export PYTHONPATH=$PATH:/mnt/d/gitrepository/datatransformation
-python3  /mnt/d/gitrepository/datatransformation/scripts/runTransformation.py --modelname ${modelname} --businessdate ${date} --mode ${env}
+export PYTHONPATH=$PATH:/d/gitrepository/datatransformation/
+python '/d/gitrepository/datatransformation/scripts/runTransformation.py' --modelname ${modelname} --businessdate ${date} --mode ${env}
 
 

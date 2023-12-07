@@ -4,6 +4,7 @@ import argparse
 from utils.logutils import log_message
 
 def main( ):
+    print("I am here...........")
     parser = argparse.ArgumentParser(description="utility for taking model as input and then process model as pre-defined methods")
 
     parser.add_argument('--modelname', dest='modelname', required=True,  help='Input Model Name for processing the feed file')
